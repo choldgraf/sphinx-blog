@@ -1,9 +1,10 @@
 ---
 tags: markup, documentation
-title: What do people think about rST?
 redirect: 2020-01-22-rst-thoughts
 date: 2020-01-22
 ---
+
+# What do people think about rST?
 
 Publishing computational narratives has always been a dream of the Jupyter Project,
 and there is still a lot of work to be done in improving these use-cases. We've made
