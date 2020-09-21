@@ -29,7 +29,8 @@ author = 'Chris Holdgraf'
 # ones.
 extensions = [
     "myst_nb",
-    "ablog"
+    "ablog",
+    "sphinx_panels"
 ]
 
 # Add any paths that contain templates here, relative to this directory.
