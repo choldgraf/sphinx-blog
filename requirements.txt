@@ -12,4 +12,5 @@ myst_nb
 sphinx
 sphinx-panels
 ablog
+pydata-sphinx-theme
 git+https://github.com/executablebooks/MyST-Parser
