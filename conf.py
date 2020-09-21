@@ -58,10 +58,14 @@ html_sidebars = {
     "posts/**": ['postcard.html', 'recentposts.html', 'archives.html'],
     "blog": ['archives.html']
 }
-blog_baseurl = "blog_baseurl"
+blog_baseurl = "https://predictablynoisy.com"
 blog_title = "Predictably Noisy"
 blog_path = "blog"
 fontawesome_included = True
 blog_post_pattern = "posts/*/*"
 
+# Temporarily stored as off until we fix it
 jupyter_execute_notebooks = "off"
+
+def setup(app):
+    app.add_css_file("custom.css")

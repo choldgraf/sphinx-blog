@@ -1,10 +1,11 @@
 ---
 tags: CI, CD, continuous integration, dev ops, software development
-title: Three things I love about CircleCI
 redirect: three-things-circleci
 category: coding
 date: 2019-01-29
 ---
+
+# Three things I love about CircleCI
 
 I recently had to beef up the continuous deployment of Jupyter Book, and used
 it as an opportunity to learn a bit more about CircleCI's features. It turns out,

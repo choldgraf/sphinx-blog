@@ -1,9 +1,10 @@
 ---
 tags: open communities
-title: A few tips for working remotely
 redirect: 2020-05-04-remote-work
 date: 2020-05-04
 ---
+
+# A few tips for working remotely
 
 Now that many have shifted to some form of remote work, I've had quite a few
 conversations where others were asking for best-practices or tips in working in

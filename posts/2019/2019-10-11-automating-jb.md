@@ -1,10 +1,10 @@
 ---
 tags: infrastructure
-title: Automating Jupyter Book deployments with CI/CD
 date: 2019-10-11
 redirect: automating-jb
 ---
 
+# Automating Jupyter Book deployments with CI/CD
 
 Lately I've spent a lot of time trying to reduce the friction involved
 in deploying Jupyter Book as well as contributing to the project.

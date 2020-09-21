@@ -1,9 +1,10 @@
 ---
 tags: talks
-title: A few recent talks
 redirect: 2019-a-few-talks
 date: 2019-06-25
 ---
+
+# A few recent talks
 
 Lately I've given quite a number of talks about the Jupyter and Binder
 ecosystems for various purposes. Before each of the talks, I make the

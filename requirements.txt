@@ -1,0 +1,15 @@
+scipy
+numpy
+matplotlib
+seaborn
+pandas
+nilearn
+ipywidgets
+colorspacious
+makeitpop
+xarray
+myst_nb
+sphinx
+sphinx-panels
+ablog
+git+https://github.com/executablebooks/MyST-Parser
