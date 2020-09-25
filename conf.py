@@ -50,20 +50,39 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 html_theme = 'pydata_sphinx_theme'
 html_logo = "_static/logo.png"
 
+html_theme_options = {
+  "github_url": "https://github.com/choldgraf/",
+  "twitter_url": "https://twitter.com/choldgraf",
+  "search_bar_text": "Search this site...",
+  "google_analytics_id": "UA-88310237-1",
+  "search_bar_position": "navbar",
+}
+
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
 html_sidebars = {
+    "index": ["hello.html"],
+    "about": ["hello.html"],
+    "publications": ["hello.html"],
+    "projects": ["hello.html"],
     "posts/**": ['postcard.html', 'recentposts.html', 'archives.html'],
-    "blog": ['archives.html']
+    "blog": ['tagcloud.html', 'archives.html'],
+    "blog/**": ['postcard.html', 'recentposts.html', 'archives.html']
 }
 blog_baseurl = "https://predictablynoisy.com"
 blog_title = "Predictably Noisy"
 blog_path = "blog"
 fontawesome_included = True
 blog_post_pattern = "posts/*/*"
+
+# Panels config
+panels_add_boostrap_css = False
+
+# MyST config
+myst_admonition_enable = True
 
 # Temporarily stored as off until we fix it
 jupyter_execute_notebooks = "off"

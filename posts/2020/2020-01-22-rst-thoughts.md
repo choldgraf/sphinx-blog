@@ -16,6 +16,10 @@ which aim to improve the writing and publishing process with the Jupyter ecosyst
 This is hopefully the first post of a few that ask how we can best-improve the state
 of publishing with Jupyter.
 
+:::{admonition,tip} Update!
+Many of the ideas in this post have now made their way into a new flavor of markdown called [Markedly Structured Text](https://myst-parser.readthedocs.io), or MyST. It brings all of the features of rST into Markdown. Check it out!
+:::
+
 Python has a fairly sophisticated publishing tool in its stack. [Sphinx](http://sphinx-doc.org/)
 has been a staple for publishing documentation for packages for several years now.
 Interestingly, publishing a book is more similar to publishing a package's documentation
@@ -126,24 +130,24 @@ E.g. being able to bold a link by nesting `**` inside of your link syntax.
 Here is a quick list of the tweets that touched on the topic of syntax:
 
 * Links syntax is confusing (9 total)
-    * Links are confusing: https://twitter.com/asmeurer/status/1212468755768336384
-    * Bad syntax, esp links: https://twitter.com/njgoldbaum/status/1212059796142055424
-    * Links structure: https://twitter.com/SylvainCorlay/status/1212061834116816898
-    * External links: https://twitter.com/WillingCarol/status/1212152304800894976
-    * Syntax / too complex to write: https://twitter.com/minrk/status/1212119686009233410
-    * Syntax, esp links and tables: https://twitter.com/_JacobTomlinson/status/1212104705809289219
-    * Improve links: https://twitter.com/andreazonca/status/1212166686389858306
-    * Links and heading permalinks: https://twitter.com/goerz/status/1212610069252263936
-    * Inline hyperlinks: https://twitter.com/moorepants/status/1212072806994739200
+    * Links are confusing: <https://twitter.com/asmeurer/status/1212468755768336384>
+    * Bad syntax, esp links: <https://twitter.com/njgoldbaum/status/1212059796142055424>
+    * Links structure: <https://twitter.com/SylvainCorlay/status/1212061834116816898>
+    * External links: <https://twitter.com/WillingCarol/status/1212152304800894976>
+    * Syntax / too complex to write: <https://twitter.com/minrk/status/1212119686009233410>
+    * Syntax, esp links and tables: <https://twitter.com/_JacobTomlinson/status/1212104705809289219>
+    * Improve links: <https://twitter.com/andreazonca/status/1212166686389858306>
+    * Links and heading permalinks: <https://twitter.com/goerz/status/1212610069252263936>
+    * Inline hyperlinks: <https://twitter.com/moorepants/status/1212072806994739200>
 * Header / title syntax (3 total)
-    * Using underlines for headers: https://twitter.com/phaustin/status/1212067821976375296
-    * Titles: https://twitter.com/mfcabrera/status/1212126606170431489
-    * Title lines are confusing: https://twitter.com/alienghic/status/1212119125398437888
+    * Using underlines for headers: <https://twitter.com/phaustin/status/1212067821976375296>
+    * Titles: <https://twitter.com/mfcabrera/status/1212126606170431489>
+    * Title lines are confusing: <https://twitter.com/alienghic/status/1212119125398437888>
 * Two backticks for code
-    * Two Backticks for code literals: https://twitter.com/brettsky/status/1212422437683351553
+    * Two Backticks for code literals: <https://twitter.com/brettsky/status/1212422437683351553>
 * Nested inline markup (e.g. 'em' inside of 'strong') (2 total)
-    * Nested inline markup: https://twitter.com/asmeurer/status/1212468755768336384
-    * nested "em" in "strong": https://twitter.com/uranusjr/status/1212179877341720577
+    * Nested inline markup: <https://twitter.com/asmeurer/status/1212468755768336384>
+    * nested "em" in "strong": <https://twitter.com/uranusjr/status/1212179877341720577>
 
 # Error reporting and the complexity of Sphinx
 
@@ -159,18 +163,18 @@ bogs down the development and writing process.
 Here are the tweets about the Sphinx toolchain itself:
 
 * Error reporting / complexity of Sphinx itself (3 total)
-    * Error reporting: https://twitter.com/asmeurer/status/1212468909078544384
-    * Error reporting in Sphinx etc: https://twitter.com/GaelVaroquaux/status/1212058374981988352
-    * Documentation is bad: https://twitter.com/AkhmerovAnton/status/1212059839033171968
+    * Error reporting: <https://twitter.com/asmeurer/status/1212468909078544384>
+    * Error reporting in Sphinx etc: <https://twitter.com/GaelVaroquaux/status/1212058374981988352>
+    * Documentation is bad: <https://twitter.com/AkhmerovAnton/status/1212059839033171968>
 
 There were also a few miscellaneous responses that didn't quite fit into the above categories:
 
 * Misc (6 total)
-    * Isn't a standard: https://twitter.com/aterrel/status/1212132546307350529
-    * Newlines in nested lists, not easy to deploy: https://twitter.com/westurner/status/1212178375571365891
-    * No notebook support: https://twitter.com/moorepants/status/1212062811599147008
-    * Has state: https://twitter.com/Mbussonn/status/1212069224245551104
-    * General complexity: https://twitter.com/mrocklin/status/1212123762595811328
+    * Isn't a standard: <https://twitter.com/aterrel/status/1212132546307350529>
+    * Newlines in nested lists, not easy to deploy: <https://twitter.com/westurner/status/1212178375571365891>
+    * No notebook support: <https://twitter.com/moorepants/status/1212062811599147008>
+    * Has state: <https://twitter.com/Mbussonn/status/1212069224245551104>
+    * General complexity: <https://twitter.com/mrocklin/status/1212123762595811328>
 
 # What can be done?
 
