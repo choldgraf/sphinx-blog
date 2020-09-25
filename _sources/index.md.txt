@@ -1,14 +1,46 @@
-# Predictably Noisy on Sphinx!
+# Chris Holdgraf - about me
 
-This is an experiment in hosting my personal website and blog via Sphinx extensions instead of using Jekyll. It uses the [pydata sphinx theme](https://pydata-sphinx-theme.readthedocs.io/) along with [ablog](https://ablog.readthedocs.io/) for blogging, and the [myst-parser](https://myst-parser.readthedocs.io/en/latest/) and [myst-nb](https://myst-nb.readthedocs.io/) packages for writing posts in Markdown and Jupyter Notebooks.
+I work at the intersection of technical development, open communities, scientific research, and education.
 
-See the [](blog) for the latest posts!
+I work with teams to create and improve open-source technology for scientists, educators, and data analysts. My goal is to help people do their work more effectively, openly, inclusively, and reproducibly.
+
+You can learn a bit more about what I do on this website.
+
+````{panels}
+:column: col-4 text-center
+
+A bit more about me
++++
+```{link-button} about
+:classes: btn-outline-primary btn-block stretched-link
+```
+---
+Some of my recent projects
++++
+```{link-button} projects
+:classes: btn-outline-primary btn-block stretched-link
+```
+---
+My blog
++++
+
+```{link-button} blog
+:classes: btn-outline-primary btn-block stretched-link
+```
+````
 
 ```{toctree}
 :maxdepth: 2
 :hidden:
 
 about
+projects
 publications
 blog
+```
+
+**Some recent blog posts**
+
+```{postlist}
+:date: "%A, %B %d, %Y"
 ```

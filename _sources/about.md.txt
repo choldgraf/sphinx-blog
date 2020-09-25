@@ -1,93 +1,52 @@
 # About me
 
-I'm a fellow at the [Berkeley Institute for Data Science](https://bids.berkeley.edu/)
-and a member of [Project Jupyter](http://jupyter.org/) as well as the
-[Binder Project](https://mybinder.readthedocs.io/en/latest/about.html). I work at the intersection
-of technical development, open communities, scientific research, and education.
+I'm a post-doc in the Statistics department at UC Berkeley, and a co-founder of the [non-profit 2i2c](https://2i2c.org).
 
-I work with teams to create and improve open-source technology for
-scientists, educators, and data analysts. My goal is to help people do their
-work more effectively, openly, inclusively, and reproducibly.
+## What I do
 
-I used to be a cognitive neuroscientist using predictive modeling to study
-the ways in which the human [auditory system understands speech](https://www.nature.com/articles/ncomms13654).
+```{panels}
+:card: border-0 pl-0
+:body: pl-0
+:column: pl-0
+:container: pl-0
 
-Check out the links above for more information on some of the things I've
-been up to, or see {ref}`my blog <blog-posts>` for some of my thoughts.
+---
+:column: col-3
+**Scientific Research and Open Scholarship**
 
-## Scientific Research and Open Scholarship
+---
+:column: col-9
 
-I've been involved with several projects in academic / scientific research. These mostly focus around
-"meta" issues in open source communities, open standards and practices in scientific fields, and
-computational neuroscience.
+I used to study cognitive and computational neuroscience, using predictive modeling to study the ways in which the human auditory system understands speech.
+
+- A good example of my work is this paper about [{fa}`file-alt`top-down speech representations influencing the perception of noisy speech](https://www.nature.com/articles/ncomms13654).
+- To learn about these methods, see my methods paper about [{fa}`file-alt` encoding and decoding models of speech perception](https://www.frontiersin.org/articles/10.3389/fnsys.2017.00061/full).
+
+I've also been involved with several projects across other fields in academic / scientific research, especially "meta" issues in open source communities and open standards and practices in scientific fields.
 
 For a list of publications and scholarly artifacts in which I've been involved,
-check out [my ORCID page](https://orcid.org/0000-0002-2391-0678).
+check out [my ORCID page](https://orcid.org/0000-0002-2391-0678) or [my Google Scholar page](https://scholar.google.com/citations?user=fJmcIEIAAAAJ&hl=en&oi=ao).
 
-## Open Source and Open Community
+---
+:column: col-3
 
-Much of my work revolves around open communities that create tools and projects for scientific
-research as well as education. Below are a few core projects I've been involved with recently.
+**Open Source and Open Community**
 
-### The Binder Project
+---
+:column: col-9
 
-![binder logo](https://mybinder.org/static/logo.svg?v=f9f0d927b67cc9dc99d788c822ca21c0)
+I work on projects that make research and education more effective, efficient, inclusive, and transparent. I also believe that it's important for open source technical projects to have healthy and inclusive _communities_ behind them.
 
-Binder allows you to create custom computing environments that can be
-shared and used by many remote users. It is powered by BinderHub, which
-is an open-source tool that deploys the Binder service in the cloud. One-such
-deployment lives at [mybinder.org](https://mybinder.org), which we run as a free service.
+I contribute to a number of open-source projects that support the research and education community. In particular I am a core contributor to many projects in the [PyData ecosystem](https://numfocus.org/sponsored-projects), and in particular the following major projects:
 
-The goal of Binder is enable people to share reproducible, interactive versions
-of their code with others as easily as possible. It is used by people across
-the scientific, education, and analytics communities.
+- [Project Jupyter](http://jupyter.org/) - an open platform and community for interactive data science.
+- [JupyterHub](https://jupyter.org/hub) - shared infrastructure for interactive computing on shared infrastructure.
+- [the Binder Project](https://mybinder.readthedocs.io/en/latest/about.html) - tools and standards for interactive, reproducible, sharable repositories.
+- [the Executable Books Project](https://executablebooks.org) - open source tools that facilitate publishing computational narratives using the Jupyter ecosystem.
 
-
-### Project Jupyter and JupyterHub
-
-![JupyterHub logo](https://zero-to-jupyterhub.readthedocs.io/en/latest/_static/logo.png)
-
-JupyterHub is a tool that lets an administrator serve many user sessions
-from a single machine. The [Zero to JupyterHub guide](https://z2jh.jupyter.org) is an instructional and
-opinionated guide to deploying a JupyterHub on Kubernetes, a framework for
-deploying / managing cloud resources.
-
-The Zero to JupyterHub guide was originally written as an extension of
-the technical infrastructure for UC Berkeley's Data 8 course, and since then
-has become the most popular method for running a JupyterHub at scale in the cloud.
-
-### Docathon
-
-![Docathon logo](https://docathon.github.io/docathon/images/logo.svg)
-
-The Docathon is a week-long global sprint where we focus our efforts on improving
-the state of documentation in the open-source and open-science world.
-This means writing better documentation, building tools, and sharing skills.
-
-[The first Docathon](https://docathon.github.io/docathon/) was held in 2017,
-and had participants from across the globe.
-
-![](https://cloud.githubusercontent.com/assets/1839645/23828598/cd21501e-068b-11e7-85d8-ee42a0b86762.png)
-
-More than 40 open-source projects contributed, and in total we put out a
-roughly ten-fold increase in contributions to documentation over the week!
-
-![](https://docathon.github.io/docathon/images/global_activity.png)
-
-The next Docathon is TBD, but if you're interested in being involved please
-reach out!
-
-### MNE-Python
-
-![MNE logo](https://martinos.org/mne/stable/_static/mne_logo.png)
-
-MNE-Python is open-source software for exploring, visualizing, and analyzing
-human neurophysiological data (MEG, EEG, sEEG, ECoG, etc).
-
-After my PhD, I spent some time generalizing the code I had written for [receptive field
-analysis](https://martinos.org/mne/stable/auto_tutorials/plot_receptive_field.html?highlight=receptive%20field)
-of human ECoG data, which now exists in MNE-Python.
-
+For an idea of the kinds of projects that I work on, check out my [{fa}`github,style=fab` GitHub page](https://github.com/choldgraf)
+---
+```
 
 ## CV
 
@@ -100,3 +59,8 @@ Here's some more "official" CV-style info, if that's what you're looking for.
 * Ph.D. in Neuroscience, University of California at Berkeley, 2017
 
 If you want a hard-copy CV, you can find a {download}`reasonably up-to-date CV here </_static/cv.pdf>`.
+
+## About this website
+
+This is an experiment in hosting my personal website and blog via Sphinx extensions instead of using Jekyll. It uses the [pydata sphinx theme](https://pydata-sphinx-theme.readthedocs.io/) along with [ablog](https://ablog.readthedocs.io/) for blogging, and the [myst-parser](https://myst-parser.readthedocs.io/en/latest/) and [myst-nb](https://myst-nb.readthedocs.io/) packages for writing posts in Markdown and Jupyter Notebooks.
+

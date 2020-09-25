@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>http://lernfunk.de/media/654321</id>
   <title>Predictably Noisy</title>
-  <updated>2020-09-21T23:02:08.185398+00:00</updated>
+  <updated>2020-09-25T22:08:01.686798+00:00</updated>
   <link href="https://predictablynoisy.com"/>
   <link href="https://predictablynoisy.com/blog/atom.xml"/>
   <generator uri="https://ablog.readthedocs.org" version="0.10.9">ABlog</generator>
@@ -106,17 +106,5 @@ of publishing with Jupyter.&lt;/p&gt;
 </content>
     <link href="https://predictablynoisy.com/posts/2020/2020-01-22-rst-thoughts.html" rel="alternate"/>
     <published>2020-01-22T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://predictablynoisy.com/posts/2020/2020-05-04-remote-work.html</id>
-    <title>A few tips for working remotely</title>
-    <updated>2020-05-04T00:00:00+00:00</updated>
-    <content type="html">&lt;p&gt;Now that many have shifted to some form of remote work, I’ve had quite a few
-conversations where others were asking for best-practices or tips in working in
-distributed and remote teams/communities. Most of my work over the past few years has been
-remote in some form or another, so here are a few things I’ve learned in the process.&lt;/p&gt;
-</content>
-    <link href="https://predictablynoisy.com/posts/2020/2020-05-04-remote-work.html" rel="alternate"/>
-    <published>2020-05-04T00:00:00+00:00</published>
   </entry>
 </feed>
