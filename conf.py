@@ -39,7 +39,7 @@ templates_path = ['_templates']
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', "*import_posts*"]
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', "*import_posts*", "**/pandoc_ipynb/inputs/*"]
 
 
 # -- Options for HTML output -------------------------------------------------
@@ -80,6 +80,7 @@ blog_post_pattern = "posts/*/*"
 post_redirect_refresh = 1
 post_auto_image = 1
 post_auto_excerpt = 2
+disqus_shortname = "chrisholdgraf"
 
 # Panels config
 panels_add_boostrap_css = False
