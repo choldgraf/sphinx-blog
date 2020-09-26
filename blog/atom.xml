@@ -2,35 +2,41 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>http://lernfunk.de/media/654321</id>
   <title>Predictably Noisy</title>
-  <updated>2020-09-25T22:08:01.686798+00:00</updated>
+  <updated>2020-09-26T18:44:21.687916+00:00</updated>
   <link href="https://predictablynoisy.com"/>
   <link href="https://predictablynoisy.com/blog/atom.xml"/>
   <generator uri="https://ablog.readthedocs.org" version="0.10.9">ABlog</generator>
   <entry>
-    <id>https://predictablynoisy.com/posts/2019/2019-01-29-three-things-circleci.html</id>
+    <id>https://predictablynoisy.com/posts/2019/2019-01-29-three-things-circleci/</id>
     <title>Three things I love about CircleCI</title>
     <updated>2019-01-29T00:00:00+00:00</updated>
     <content type="html">&lt;p&gt;I recently had to beef up the continuous deployment of Jupyter Book, and used
 it as an opportunity to learn a bit more about CircleCI’s features. It turns out,
 they’re pretty cool! Here are a few of the things that I learned this time around.&lt;/p&gt;
+&lt;p&gt;For those who aren’t familiar with CircleCI, it is a service that runs Continuous
+Integration and Continuous Deployment (CI/CD) workflows for projects. This basically
+means that they manage many kinds of infrastructure that can launch jobs that run
+test suites, deploy applications, and test on many different environments.&lt;/p&gt;
 </content>
-    <link href="https://predictablynoisy.com/posts/2019/2019-01-29-three-things-circleci.html" rel="alternate"/>
+    <link href="https://predictablynoisy.com/posts/2019/2019-01-29-three-things-circleci/" rel="alternate"/>
     <published>2019-01-29T00:00:00+00:00</published>
   </entry>
   <entry>
-    <id>https://predictablynoisy.com/posts/2019/2019-03-16-jupyter-dev.html</id>
+    <id>https://predictablynoisy.com/posts/2019/2019-03-16-jupyter-dev/</id>
     <title>Thoughts from the Jupyter team meeting 2019</title>
     <updated>2019-03-30T00:00:00+00:00</updated>
     <content type="html">&lt;p&gt;I just got back from a week-long Jupyter team meeting that was somehow both
 very tiring and energizing at the same time. In the spirit of openness, I’d
 like to share some of my experience. While it’s still fresh in my mind,
 here are a few takeaways that occurred to me throughout the week.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Note that these are my personal (rough) impressions, but they shouldn’t be taken as a
+statement from the project/community itself.&lt;/em&gt;&lt;/p&gt;
 </content>
-    <link href="https://predictablynoisy.com/posts/2019/2019-03-16-jupyter-dev.html" rel="alternate"/>
+    <link href="https://predictablynoisy.com/posts/2019/2019-03-16-jupyter-dev/" rel="alternate"/>
     <published>2019-03-30T00:00:00+00:00</published>
   </entry>
   <entry>
-    <id>https://predictablynoisy.com/posts/2019/2019-06-25-a-few-talks.html</id>
+    <id>https://predictablynoisy.com/posts/2019/2019-06-25-a-few-talks/</id>
     <title>A few recent talks</title>
     <updated>2019-06-25T00:00:00+00:00</updated>
     <content type="html">&lt;p&gt;Lately I’ve given quite a number of talks about the Jupyter and Binder
@@ -38,12 +44,15 @@ ecosystems for various purposes. Before each of the talks, I make the
 slides available at a public address in case others are interested in
 following up with the material. For those who missed the talks (or the
 subsequent tweets about them), here are a few of the more recent ones.&lt;/p&gt;
+&lt;p&gt;A word of warning: there’s a lot of overlap between these talks - I’m not
+crazy enough to re-invent the wheel each time I have to speak. However, maybe
+folks will find some value in the different angles taken in each case.&lt;/p&gt;
 </content>
-    <link href="https://predictablynoisy.com/posts/2019/2019-06-25-a-few-talks.html" rel="alternate"/>
+    <link href="https://predictablynoisy.com/posts/2019/2019-06-25-a-few-talks/" rel="alternate"/>
     <published>2019-06-25T00:00:00+00:00</published>
   </entry>
   <entry>
-    <id>https://predictablynoisy.com/posts/2019/2019-10-11-automating-jb.html</id>
+    <id>https://predictablynoisy.com/posts/2019/2019-10-11-automating-jb/</id>
     <title>Automating Jupyter Book deployments with CI/CD</title>
     <updated>2019-10-11T00:00:00+00:00</updated>
     <content type="html">&lt;p&gt;Lately I’ve spent a lot of time trying to reduce the friction involved
@@ -52,46 +61,67 @@ Features are a great carrot, but ultimately getting engagement is also
 about lowering barriers to entry and showing people a path forward.
 Jupyter Book is a relatively straightforward project, but it involves
 a few technical pieces that can be painful to use (thanks Jekyll).&lt;/p&gt;
+&lt;p&gt;Recently I experimented with whether we can &lt;strong&gt;automate deploying a Jupyter Book online&lt;/strong&gt;.
+Using continuous integration / deployment services seems like a natural place
+to try this out. One can upload a barebones set of code to a GitHub repository,
+then configure a build system to create a book and deploy it online from there.
+This blog post is a place to keep track of the current state of affairs for this workflow.&lt;/p&gt;
+&lt;img alt="auto build logos" src="../_images/jb-auto-build.png" /&gt;
 </content>
-    <link href="https://predictablynoisy.com/posts/2019/2019-10-11-automating-jb.html" rel="alternate"/>
+    <link href="https://predictablynoisy.com/posts/2019/2019-10-11-automating-jb/" rel="alternate"/>
     <published>2019-10-11T00:00:00+00:00</published>
   </entry>
   <entry>
-    <id>https://predictablynoisy.com/posts/2019/2019-10-13-rust-jupyter-governance.html</id>
+    <id>https://predictablynoisy.com/posts/2019/2019-10-13-rust-jupyter-governance/</id>
     <title>What would Rust-style governance look like in Jupyter?</title>
     <updated>2019-10-13T00:00:00+00:00</updated>
     <content type="html">&lt;p&gt;As I’ve written about before, I &lt;a class="reference external" href="https://predictablynoisy.com/rust-governance"&gt;like Rust’s governance structure&lt;/a&gt;.
 I mean, who can’t get behind a community that
 &lt;a class="reference external" href="https://www.rust-lang.org/governance"&gt;lists governance as a top-level page on its website&lt;/a&gt;?&lt;/p&gt;
+&lt;p&gt;Jupyter is currently in the middle of
+&lt;a class="reference external" href="https://discourse.jupyter.org/t/governance-office-hours-meeting-minutes/1480/26"&gt;figuring out the next phase of its governance structure&lt;/a&gt;,
+and so I have been thinking about
+what this might look like. This post is a quick thought-experiment to explore what it’d mean
+to port over Rust’s governance directly into the Jupyter community.&lt;/p&gt;
 </content>
-    <link href="https://predictablynoisy.com/posts/2019/2019-10-13-rust-jupyter-governance.html" rel="alternate"/>
+    <link href="https://predictablynoisy.com/posts/2019/2019-10-13-rust-jupyter-governance/" rel="alternate"/>
     <published>2019-10-13T00:00:00+00:00</published>
   </entry>
   <entry>
-    <id>https://predictablynoisy.com/posts/2019/2019-10-22-xarray-neuro.html</id>
+    <id>https://predictablynoisy.com/posts/2019/2019-10-22-xarray-neuro/</id>
     <title>Analyzing intracranial electrophysiology data with xarray</title>
     <updated>2019-10-22T00:00:00+00:00</updated>
     <content type="html">&lt;p&gt;Over the last few years, it has been exciting to see the xarray project evolve,
 add new functionality, and mature. This post is an attempt at
 giving xarray another visit to see how it could integrate into electrophysiology
 workflows.&lt;/p&gt;
+&lt;p&gt;It is common in neuroscience to ask individuals to perform a task over and over again. You record
+the activity in the brain each time they perform the task (called an “epoch” or a “trial”).
+Time is recorded relative to some &lt;em&gt;onset&lt;/em&gt; when the task begins. That is &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;t==0&lt;/span&gt;&lt;/code&gt;. The result
+is usually a matrix of &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;epochs&lt;/span&gt; &lt;span class="pre"&gt;x&lt;/span&gt; &lt;span class="pre"&gt;channejupyls&lt;/span&gt; &lt;span class="pre"&gt;x&lt;/span&gt; &lt;span class="pre"&gt;time&lt;/span&gt;&lt;/code&gt;. You can do a lot of stuff with this
+data, but our task in this paper is to detect changes in neural activity at trial onset (&lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;t==0&lt;/span&gt;&lt;/code&gt;).&lt;/p&gt;
 </content>
-    <link href="https://predictablynoisy.com/posts/2019/2019-10-22-xarray-neuro.html" rel="alternate"/>
+    <link href="https://predictablynoisy.com/posts/2019/2019-10-22-xarray-neuro/" rel="alternate"/>
     <published>2019-10-22T00:00:00+00:00</published>
   </entry>
   <entry>
-    <id>https://predictablynoisy.com/posts/2019/2019-10-27-jupyter-governance-python.html</id>
+    <id>https://predictablynoisy.com/posts/2019/2019-10-27-jupyter-governance-python/</id>
     <title>What would Python-style governance look like in Jupyter?</title>
     <updated>2019-10-27T00:00:00+00:00</updated>
     <content type="html">&lt;p&gt;This is the second in a series of blog posts that explores what it’d look like to
 directly port the governance model of other communities into the Jupyter project.
 You can find the &lt;a class="reference external" href="https://predictablynoisy.com/rust-jupyter-governance"&gt;first post about Rust here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: These posts are meant as a thought experiment rather than a proposal. Moreover,
+all the usual caveats come with it, such as the
+fact that I don’t know the Python governance
+structure &lt;em&gt;that&lt;/em&gt; well, and I might totally
+botch my characterization of it.&lt;/p&gt;
 </content>
-    <link href="https://predictablynoisy.com/posts/2019/2019-10-27-jupyter-governance-python.html" rel="alternate"/>
+    <link href="https://predictablynoisy.com/posts/2019/2019-10-27-jupyter-governance-python/" rel="alternate"/>
     <published>2019-10-27T00:00:00+00:00</published>
   </entry>
   <entry>
-    <id>https://predictablynoisy.com/posts/2020/2020-01-22-rst-thoughts.html</id>
+    <id>https://predictablynoisy.com/posts/2020/2020-01-22-rst-thoughts/</id>
     <title>What do people think about rST?</title>
     <updated>2020-01-22T00:00:00+00:00</updated>
     <content type="html">&lt;p&gt;Publishing computational narratives has always been a dream of the Jupyter Project,
@@ -103,8 +133,9 @@ We’ve recently been working on tools like &lt;a class="reference external" hre
 which aim to improve the writing and publishing process with the Jupyter ecosystem.
 This is hopefully the first post of a few that ask how we can best-improve the state
 of publishing with Jupyter.&lt;/p&gt;
+&lt;p&gt;Many of the ideas in this post have now made their way into a new flavor of markdown called &lt;a class="reference external" href="https://myst-parser.readthedocs.io"&gt;Markedly Structured Text&lt;/a&gt;, or MyST. It brings all of the features of rST into Markdown. Check it out!&lt;/p&gt;
 </content>
-    <link href="https://predictablynoisy.com/posts/2020/2020-01-22-rst-thoughts.html" rel="alternate"/>
+    <link href="https://predictablynoisy.com/posts/2020/2020-01-22-rst-thoughts/" rel="alternate"/>
     <published>2020-01-22T00:00:00+00:00</published>
   </entry>
 </feed>

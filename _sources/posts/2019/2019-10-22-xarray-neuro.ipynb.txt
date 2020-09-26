@@ -2735,7 +2735,15 @@
     "state": {},
     "version_major": 2,
     "version_minor": 0
-   }
+   },
+   "date": "2019-10-22",
+   "redirect": "xarray-explore-ieeg",
+   "tags": [
+    "analysis",
+    "neuroscience",
+    "xarray",
+    "open source"
+   ]
   }
  },
  "nbformat": 4,
