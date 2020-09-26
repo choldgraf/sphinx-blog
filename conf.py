@@ -39,7 +39,7 @@ templates_path = ['_templates']
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', "*import_posts*"]
 
 
 # -- Options for HTML output -------------------------------------------------
@@ -77,6 +77,9 @@ blog_title = "Predictably Noisy"
 blog_path = "blog"
 fontawesome_included = True
 blog_post_pattern = "posts/*/*"
+post_redirect_refresh = 1
+post_auto_image = 1
+post_auto_excerpt = 2
 
 # Panels config
 panels_add_boostrap_css = False

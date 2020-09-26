@@ -56,3 +56,7 @@ div.bd-sidebar h3, div.bd-sidebar h2, div.bd-sidebar ul {
 ul.postlist {
     padding-left: 0;
 }
+
+ul.postlist > li > p:first-child {
+    font-size: 1.3em;
+}

@@ -8,6 +8,7 @@ You can learn a bit more about what I do on this website.
 
 ````{panels}
 :column: col-4 text-center
+:card:
 
 A bit more about me
 +++
@@ -39,8 +40,12 @@ publications
 blog
 ```
 
-**Some recent blog posts**
+## Recent posts
+
+See the [blog archives](blog) for a more complete list.
 
 ```{postlist}
-:date: "%A, %B %d, %Y"
+:date: "%Y-%m-%d"
+:format: "{date} - {title}"
+:excerpts:
 ```
